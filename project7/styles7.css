@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.background{
+    background-color: #e8e7e7 ;
+}
+
+nav{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin: 62px 211px;
+}
+
+.pic1{
+    height: 42px;
+    width: 42px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 27px;
+}
+
+.menu{
+    margin: 0 200px;
+}
+
+.signUp button{
+    background-color: #e94339;
+    border: none;
+    border-radius: 36px;
+    width: 115px;
+    height: 56px;
+    color: white;
+}
+
+.signUp{
+    display: flex;
+    align-items: center;
+}
+
+.signUp p{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.delivery{
+    margin: 103px 168px 60px ;
+    display: flex;
+}
+
+.location{
+    margin-right: 109px;
+}
+
+.pic2{
+    background-color: #f2ebda;
+    border-radius: 36px;
+    width: 500px;
+    height: 452px;
+    padding: 37px 35px 11px 35px;
+}
+
+#food{ 
+    font-size: 61px;
+    text-wrap: nowrap;
+}
+
+.info p{
+    font-size: 18px;
+    margin: 16px 0 32px 0;
+}
+
+input{
+    position: relative;
+}
+
+input[type="email"]{
+    border: none;
+    border-radius: 56px;
+    width: 464px;
+    height: 64px;
+}
+
+input[type="submit"]{
+    background-color: #ff5331;
+    border: none;
+    border-radius: 56px;
+    color: white;
+    width: 134px;
+    height: 52px;
+    top: -58px;
+    left: 350px;
+}
+
+.try{
+    padding-left: 24px;
+}
+
+.appstore{
+    margin-top: 35px;
+    margin-right: 33px;
+}
+
+.playstore{
+    margin-top: 35px;
+}
+
+.ten{
+    margin: 140px 489px 180px;
+    text-align: center;
+}
+
+.more{
+    font-size: 46px;
+    margin-bottom: 17px;
+}
+
+.more span{
+    color: #ff5331;
+}
+
+.bigdiv{
+    margin-top: -120px;
+}
+
+.div1{
+    margin-bottom: 180px;
+}
+.pizzaxx{
+    display: flex;
+    gap: 32px;
+    margin: 21px 250px;
+}
+
+#pizza{
+    width: 168px;
+    height: 232px;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+}
+
+#pizza img{
+    background-color: #e8e7e7;
+    height: 50px;
+    width: 50px;
+    padding: 27px;
+    margin: 32px 30px;
+    border-radius: 100px; 
+}
+
+#pizza p{
+    margin-left: 53px;
+    font-size: 24px;
+}
+
+
+#burger{
+    width: 168px;
+    height: 232px;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+}
+
+#burger img{
+    background-color: #e8e7e7;
+    height: 50px;
+    width: 50px;
+    padding: 27px;
+    margin: 32px 30px;
+    border-radius: 100px; 
+}
+
+#burger p{
+    margin-left: 53px;
+    font-size: 24px;
+}
+
+#sushi{
+    width: 168px;
+    height: 232px;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+}
+
+#sushi img{
+    background-color: #e8e7e7;
+    height: 50px;
+    width: 50px;
+    padding: 27px;
+    margin: 32px 30px;
+    border-radius: 100px; 
+}
+
+#sushi p{
+    margin-left: 53px;
+    font-size: 24px;
+}
+
+#bike{
+    width: 568px;
+    height: 232px;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+}
+
+#bike img{
+    height: 116.13px;
+    width: 192.13px;
+    padding: 27px;
+    margin: -13.9px 27.87px 1.32px 315px;
+}
+
+
+#bike p{
+    margin: 38px 98px 0 33px;
+    font-size: 25.8px;
+}
+
+#orange{
+    color: #ff5331;
+}
+
+#green{
+    color: #009b00;
+}
+
+.pasta{
+    display: flex;
+    gap: 32px;
+    margin: 50px 400px 0px 100px;
+}
+
+
+#vector img{
+    width: 61px;
+    height: 50.42px;
+    margin-bottom: 34px;
+}
+
+#vector p{
+    font-size: 23px;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+}
+
+.one{
+    margin-left: -110px;
+}
+
+.two{
+    margin-left: -20px;
+}
+.three{
+    margin-left: -20px;
+}
+.four{
+    margin-right: -20px;
+}
+
+.bers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    font-size: 44px;
+    color: #FF5331;
+    margin-top: 39px;
+}
+
+.imgg{
+    background-color: #e8e7e7;
+    height: 50px;
+    width: 50px;
+    padding: 24px;
+    margin-top: 60px; 
+    border-radius: 100px; 
+}
+
+.text{
+    font-size: 24px;
+    text-align: center;
+    padding: 24px 23px 44px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 214px;
+    height: 267px;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 195px 406px 0px;
+}
+
+#client{
+    font-size: 44px;
+}
+
+#s{
+    font-size: 16px;
+    margin: 18px 0px 55px 0px;
+}
+
+#ss{
+    font-size: 24px;
+    margin: 42px 0px;
+}
+
+#sss{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+#ssss{
+    font-size: 14px;
+}
+
+.div3 img{
+    height: 55px;
+    width: 60px;
+}
