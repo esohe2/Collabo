@@ -12,7 +12,8 @@ nav{
     display: flex;
     justify-content:  center;
     align-items: center;
-    margin: 62px 211px;
+    margin: 62px -200px;
+    overflow: hidden;
 }
 
 .pic1{
@@ -50,8 +51,9 @@ nav{
 }
 
 .delivery{
-    margin: 103px 168px 60px ;
+    margin: 103px 168px 60px 60px;
     display: flex;
+    /* overflow: hidden; */
 }
 
 .location{
@@ -134,12 +136,13 @@ input[type="submit"]{
 }
 .pizzaxx{
     display: flex;
-    gap: 32px;
-    margin: 21px 250px;
+    gap: 20px;
+    margin: 21px 180px;
+    
 }
 
 #pizza{
-    width: 168px;
+    width: 158px;
     height: 232px;
     border: none;
     border-radius: 28px;
@@ -162,7 +165,7 @@ input[type="submit"]{
 
 
 #burger{
-    width: 168px;
+    width: 158px;
     height: 232px;
     border: none;
     border-radius: 28px;
@@ -184,7 +187,7 @@ input[type="submit"]{
 }
 
 #sushi{
-    width: 168px;
+    width: 158px;
     height: 232px;
     border: none;
     border-radius: 28px;
@@ -201,7 +204,7 @@ input[type="submit"]{
 }
 
 #sushi p{
-    margin-left: 53px;
+    margin-left: 33px;
     font-size: 24px;
 }
 
@@ -236,8 +239,8 @@ input[type="submit"]{
 
 .pasta{
     display: flex;
-    gap: 32px;
-    margin: 50px 400px 0px 100px;
+    gap: 20px;
+    margin: 50px 400px 0px 80px;
 }
 
 
@@ -249,6 +252,7 @@ input[type="submit"]{
 
 #vector p{
     font-size: 23px;
+    text-wrap: nowrap;
 }
 
 .div2{
@@ -326,28 +330,127 @@ input[type="submit"]{
 
 #client{
     font-size: 44px;
+    text-align: center;
 }
 
 #s{
     font-size: 16px;
     margin: 18px 0px 55px 0px;
+    text-align: center;
 }
 
 #ss{
     font-size: 24px;
     margin: 42px 0px;
+    text-align: center;
+    text-wrap: nowrap;
 }
 
 #sss{
     font-size: 18px;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
+    text-align: center;
 }
 
 #ssss{
     font-size: 14px;
+    text-align: center;
 }
 
 .div3 img{
     height: 55px;
     width: 60px;
+}
+#imges{
+    height: 36px;
+    width: 96px;
+    margin-top: 25px;
+}
+.subscribe{
+    background-color: #FFEFEC;
+    margin-top: 167px;
+    /* overflow: hidden; */
+}
+#sub{
+    padding: 103px 0px 12px 91px;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 0.5%;
+}
+.subscribe p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    padding-left: 91px;
+}
+.send input[type="email"]{
+    width: 470px;
+    height: 62px;
+    top: -80px;
+    left: 850px;
+}
+.send input[type="submit"]{
+    width: 85px;
+    height: 52px;
+    top: -80px;
+    left: 755px;
+}
+.black{
+    background-color: #000000;
+    color: #fff;
+}
+.quick{
+    display: flex;
+    justify-content: end;
+}
+#piz{
+    height: 42px;
+    width: 42px;
+    margin: 80px 0px 82px 100px;
+}
+#apps{
+    width: 182.44px;
+    height: 68px;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+#gplay{
+    width: 182.44px;
+    height: 68px;
+}
+.quick_links{
+    margin-top: -190px;
+    margin-bottom: 100px;
+    margin-right:100px;
+    list-style: none;
+}
+#different{
+    font-weight: 600;
+    font-size: 17.76;
+    margin-bottom: 18.5px;
+    color: #fff;
+}
+.quick_links li{
+    margin-bottom: 18.5px;
+    font-weight: 400;
+    color: #AAA7B1;
+}
+footer{
+    background-color: #000000;
+    color: #B5B2B2;
+    padding-top: 117.7px;
+    display: flex;
+    padding-bottom: 90px;
+}
+.copy{
+    font-size: 15.54px;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+.privacy{
+    display: flex;
+    margin-left: 682.19px;
+    margin-right: 152px;
+    gap: 30px;
 }
